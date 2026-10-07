@@ -1,5 +1,5 @@
-import * as functions from 'firebase-functions';
-import * as cors from 'cors';
+import * as functions from 'firebase-functions/v1';
+import cors from 'cors';
 import fetch from 'node-fetch';
 
 const corsHandler = cors({ origin: true });
